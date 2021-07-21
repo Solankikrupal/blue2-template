@@ -1,0 +1,19 @@
+$('.business-content').show();
+$('.expertise-content').hide();
+$('.quality-content').hide();
+
+$('.business-title').click(function(){
+  $('.business-content').show();
+  $('.expertise-content').hide();
+  $('.quality-content').hide();
+});
+$('.expertise-title').click(function(){
+  $('.business-content').hide();
+  $('.expertise-content').show();
+  $('.quality-content').hide();
+});
+$('.quality-title').click(function(){
+  $('.business-content').hide();
+  $('.expertise-content').hide();
+  $('.quality-content').show();
+});
